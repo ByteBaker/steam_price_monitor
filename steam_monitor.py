@@ -37,8 +37,8 @@ USDtoLOCAL_rate = JSON_response.get('rates').get(CURRENCY)
 
 system('title Steam Monitor Script')
 SEARCH_INDEX = POSITION - 1
-print()
-
+print("\n------------------ Steam Price Monitor by ByteBaker ------------------")
+print("---------- https://github.com/ByteBaker/steam_price_monitor ----------\n")
 
 def get_price_on_steam(search_term=None, index=0, use_localhost=False):
 	if not use_localhost:
